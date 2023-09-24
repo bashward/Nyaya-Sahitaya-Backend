@@ -24,6 +24,6 @@ app.post('/api/ipc',(req,res)=>{
 // })
 
 
-app.listen(3000,()=>{
+app.listen(3000 || process.env.PORT,()=>{
     console.log('Server Started!')
 })
