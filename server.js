@@ -1,6 +1,7 @@
 const express=require('express')
 const lawyers=require('./lawyers')
 const ipc=require('./ipc')
+require('dotenv').config()
 const cors=require('cors')
 
 const app=express();
